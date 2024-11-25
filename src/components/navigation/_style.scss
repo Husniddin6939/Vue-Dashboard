@@ -1,0 +1,57 @@
+aside{
+    min-height: 100vh;
+    background-color: #ffff;
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    position: relative;
+    z-index: 2;
+    padding: 20px 28px;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 11px;
+
+        a{
+            text-decoration: none;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 39px;
+            // color: #0000;
+        }
+    }
+
+    .list{
+        list-style: none;
+        margin: 80px 10px;
+        padding: 10px;
+
+        &-item{
+            transition: background-color 0.3s ease;
+            width: 100%;
+            margin-bottom: 4px; 
+            display: flex;
+            
+
+            &-link{
+                padding: 10px;
+                text-decoration: none;
+                border-radius: 12px;
+                display: block;
+                width: 100%;
+                color: #9197B3;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                
+            }
+
+        }
+
+    }
+}
+
+.router-link-exact-active{
+    background-color: #5932EA;
+    color: #fff !important;
+}
